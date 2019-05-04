@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* display: flex; */
+}
+
+.container {
+  width: 50%;
+  margin: 5rem auto;
+  border: 3px rebeccapurple dashed;
+  padding: 0.5rem 2rem;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  text-decoration: underline;
+  text-align: center;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.input {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+/* input:focus {
+  border: none;
+} */
+#searchContact {
+  height: 5vh;
+  border: none;
+  width: 50%;
+  border-bottom:2px solid rgb(206, 7, 7);
+  
+}
+#searchContact::placeholder {
+  color: black;
+  font-size: 1rem
+  
+}
+li.names-first-letter {
+  border: 1px solid red;
+  padding: 0.7rem 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+li.names {
+  border: 1px solid red;
+  padding: 0.3rem 1.2rem;
+  font-size: 1.5rem;
+  color: rgb(4, 0, 255);
+}
+li {
+  list-style: none;
+}
+
+fieldset {
+  padding: 0.5rem;
+}
+input {
+  padding: 0.5rem;
+}

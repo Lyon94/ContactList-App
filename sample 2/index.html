@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+  <style>
+    * {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+  .container {
+    border: 2px salmon dashed;
+    width: 50%;
+    margin: 3rem auto;
+    padding-left: 1rem;
+  }
+  h1 {
+    padding: 0.5rem 0 1rem;
+    text-decoration: underline;
+    
+    text-align: center;
+  }
+  
+  </style>
+</head>
+<body>
+<div class="container">
+<h1>Contacts</h1>
+
+<table id="contactsTable">
+<tr id="contactsHead">
+  <th>Id</th>
+  <th>First Name</th>
+  <th>Last Name</th>
+  <th>Email</th>
+  <th>Actions</th>
+</tr>
+</table>
+
+<form action="/php" id="contactsForm">
+<div class="item">
+  <label for="firstName">First Name: </label>
+  <input type="text" id="firstName"> 
+</div>
+<div class="item">
+    <label for="lastName">Last Name: </label>
+    <input type="text" id="lastName">
+  </div>
+  <div class="item">
+      <label for="email">Email: </label>
+      <input type="text" id="email">
+    </div>
+<div class="button-container">
+  <button type="reset">Discard</button>
+  <button type="submit">Save</button>
+</div>
+
+</form>
+
+
+</div>  
+
+
+
+  <script src="main.js"></script>
+</body>
+</html>
